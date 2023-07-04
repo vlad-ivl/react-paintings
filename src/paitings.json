@@ -1,0 +1,44 @@
+{
+  "paintings": [
+    {
+      "id": 1,
+      "name": "«Рождение Венеры» Сандро Боттичелли",
+      "price": 2000000,
+      "discount": 1000000,
+      "sold": false,
+      "isInBasket": false,
+      "loading": false,
+      "img": "https://cs9.pikabu.ru/post_img/big/2019/05/01/6/1556701613241163083.jpg"
+    },
+    {
+      "id": 2,
+      "name": "«Тайная вечеря»  Леонардо да Винчи",
+      "price": 3000000,
+      "discount": 0,
+      "sold": false,
+      "isInBasket": false,
+      "loading": false,
+      "img": "https://smallbay.ru/images/da_vinci1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "«Сотворение Адама» Микеланджело",
+      "price": 6000000,
+      "discount": 1000000,
+      "sold": false,
+      "isInBasket": false,
+      "loading": false,
+      "img": "http://www.abc-people.com/data/michelangelo/creation-adam.jpg"
+    },
+    {
+      "id": 4,
+      "name": "«Урок анатомии»  Рембрандт",
+      "price": 2000000,
+      "discount": 1000000,
+      "sold": true,
+      "isInBasket": false,
+      "loading": false,
+      "img": "https://arthive.net/res/media/img/oy800/work/594/448167@2x.webp"
+    }
+  ]
+}

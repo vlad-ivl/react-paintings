@@ -1,0 +1,27 @@
+.button {
+  width: 112px;
+  height: 48px;
+  background: #403432;
+  border: none;
+
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  &:hover {
+    background: #776763;
+  }
+  &:disabled {
+    background: #c1b4b1;
+  }
+
+  &-inBasket {
+    background: #5b3a32;
+  }
+}

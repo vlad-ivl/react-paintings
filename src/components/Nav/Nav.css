@@ -1,0 +1,15 @@
+.nav-logo {
+  width: 48px;
+  height: 48px;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 48px;
+  align-items: center;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #343030;
+}/*# sourceMappingURL=Nav.css.map */

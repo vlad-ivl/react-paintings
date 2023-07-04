@@ -1,0 +1,124 @@
+.painting {
+  &-block {
+    width: 280px;
+    height: 328px;
+    margin-top: 40px;
+    border: 1px solid #e1e1e1;
+  }
+
+  &-img {
+    width: 280px;
+    height: 160px;
+    &-sold {
+      opacity: 0.5;
+    }
+  }
+
+  &-title {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 220px;
+    color: #343030;
+    margin-top: 20px;
+    margin-left: 24px;
+    text-align: left;
+
+    &-sold {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      width: 220px;
+      color: #a0a0a0;
+      margin-top: 20px;
+      margin-left: 24px;
+      text-align: left;
+    }
+  }
+
+  &-price-with-button-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 24px 0 24px;
+  }
+  &-price {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #343030;
+    text-align: left;
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-discount {
+      text-decoration: line-through;
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 150%;
+      color: #a0a0a0;
+      text-align: left;
+    }
+    &-sold {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      color: #a0a0a0;
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}
+
+.title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #343030;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.printings-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 29px;
+}
+
+.loader {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border-color: #bdbdbd;
+  border-width: 4px;
+  border-style: dashed;
+  transform-origin: center;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 180deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}

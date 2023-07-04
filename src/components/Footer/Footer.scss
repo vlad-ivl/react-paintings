@@ -1,0 +1,54 @@
+.footer {
+  height: 96px;
+  width: 100%;
+  background-color: #eceaea;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-contact {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #555555;
+
+    &-block {
+      display: flex;
+      gap: 32px;
+    }
+  }
+  &-adress {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #555555;
+  }
+  &-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+
+  &-phone {
+  }
+  &-adress {
+  }
+}
